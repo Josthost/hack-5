@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Anton&family=Martian+Mono:wght@800&display=swap');
+
+body {
+    background-color: #5CE1E6;
+}
+
+.lw {
+    height: 200vh;
+    width: 10rem;
+    background-color: #ffffff;
+    margin: 0 0 0 40px;
+    position: absolute;
+}
+
+.top{
+    position: relative;
+    margin-left: 12.5rem;
+    height: 100vh;
+}
+
+.img-1 {
+    height: 100%;
+    float: left;
+}
+
+.img-1 img {
+    height: 100%;
+    width: 700px;
+}
+
+hr{
+    width: 0px;
+    height: 0px;
+}
+
+.art-1 {                        
+    float: right;
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 16rem 5rem 0 0;
+}
+
+.art-1 span {
+    width: 100%;
+    height: 100%;
+}
+
+.bot {
+    margin-left: 12.5rem;
+    height: 100vh;
+}
+
+.art-2{
+    float: left;
+    font-family: 'Anonymous Pro', monospace;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 150px 0 0 50px;
+}
+
+.art-2 span:nth-last-child(2){
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.art-2 span:nth-last-child(1){
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    padding-left: 70rem;
+}
+
+.img-2{
+    float: right;
+    height: 100vh;
+    margin-right: 50px;
+}
+
+.img-2 img {
+    position: relative;
+    height: 100%;
+    width: 660px;
+    z-index: -1;
+}
+
